@@ -4,3 +4,5 @@
 
 export_dir = "C:/Program Files (x86)/Steam/steamapps/common/MountBlade Warband/Modules/Montaria e Capacete/"
 #export_dir = "C:/Program Files (x86)/Mount&Blade Warband/Modules/Native/"
+
+load_mod_resource = "meus_capacetes"
