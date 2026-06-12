@@ -43,11 +43,11 @@ factions = [
   ("player_supporters_faction","Player's Supporters",0, 0.9, [("player_faction",1.00),("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 0xFF4433), #changed name so that can tell difference if shows up on map
   ("kingdom_1",  "General-State of Brazil", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 0x00FF00),
 
-  ("kingdom_2", "Reino Desativado 2",  ff_disabled, 0.9, [], []),
-  ("kingdom_3", "Reino Desativado 3",  ff_disabled, 0.9, [], []),
-  ("kingdom_4", "Reino Desativado 4",  ff_disabled, 0.9, [], []),
-  ("kingdom_5", "Reino Desativado 5",  ff_disabled, 0.9, [], []),
-  ("kingdom_6", "Reino Desativado 6",  ff_disabled, 0.9, [], []),
+  ("kingdom_2", "Reino Desativado 2",  0, 0.9, [], []),
+  ("kingdom_3", "Reino Desativado 3",  0, 0.9, [], []),
+  ("kingdom_4", "Reino Desativado 4",  0, 0.9, [], []),
+  ("kingdom_5", "Reino Desativado 5",  0, 0.9, [], []),
+  ("kingdom_6", "Reino Desativado 6",  0, 0.9, [], []),
 
 ##  ("kingdom_1_rebels",  "Swadian rebels", 0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 0xCC2211),
 ##  ("kingdom_2_rebels",  "Vaegir rebels",    0, 0.9, [("outlaws",-0.05),("peasant_rebels", -0.1),("deserters", -0.02),("mountain_bandits", -0.05),("forest_bandits", -0.05)], [], 0xCC2211),
