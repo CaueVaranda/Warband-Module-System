@@ -42,52 +42,52 @@ pf_village = pf_is_static|pf_always_visible|pf_hide_defenders|pf_label_small
 
 parties = [
   ("main_party","Main Party",icon_player|pf_limit_members, no_menu, pt_none,fac_player_faction,0,ai_bhvr_hold,0,(17, 52.5),[(trp_player,1,0)]),
-  ("temp_party","{!}temp_party",pf_disabled, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0,0),[]),
-  ("camp_bandits","{!}camp_bandits",pf_disabled, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(1,1),[(trp_temp_troop,3,0)]),
+  ("temp_party","{!}temp_party",pf_disabled, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(-0.12,-4.01),[]),                             #[swycartographr] prev. coords: (0, 0)
+  ("camp_bandits","{!}camp_bandits",pf_disabled, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(5.59,1.61),[(trp_temp_troop,3,0)]),         #[swycartographr] prev. coords: (1, 1)
 #parties before this point are hardwired. Their order should not be changed.
 
-  ("temp_party_2","{!}temp_party_2",pf_disabled, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0,0),[]),
+  ("temp_party_2","{!}temp_party_2",pf_disabled, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(2.76,-2.52),[]),                          #[swycartographr] prev. coords: (0, 0)
 #Used for calculating casulties.
-  ("temp_casualties","{!}casualties",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("temp_casualties_2","{!}casualties",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("temp_casualties_3","{!}casualties",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("temp_wounded","{!}enemies_wounded",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("temp_killed", "{!}enemies_killed", pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("main_party_backup","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("encountered_party_backup","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
+  ("temp_casualties","{!}casualties",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(19.7,7.56),[]),                            #[swycartographr] prev. coords: (1, 1)
+  ("temp_casualties_2","{!}casualties",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(3.64,9.77),[]),                          #[swycartographr] prev. coords: (1, 1)
+  ("temp_casualties_3","{!}casualties",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(11.55,10.4),[]),                         #[swycartographr] prev. coords: (1, 1)
+  ("temp_wounded","{!}enemies_wounded",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(13.47,-15.58),[]),                       #[swycartographr] prev. coords: (1, 1)
+  ("temp_killed", "{!}enemies_killed", pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(21.82,3.47),[]),                         #[swycartographr] prev. coords: (1, 1)
+  ("main_party_backup","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1.98,-18.29),[]),                               #[swycartographr] prev. coords: (1, 1)
+  ("encountered_party_backup","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(12.3,-6.49),[]),                         #[swycartographr] prev. coords: (1, 1)
 #  ("ally_party_backup","_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("collective_friends_backup","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("player_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("enemy_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("ally_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
+  ("collective_friends_backup","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(23.34,13.12),[]),                       #[swycartographr] prev. coords: (1, 1)
+  ("player_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(15,13.94),[]),                                  #[swycartographr] prev. coords: (1, 1)
+  ("enemy_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(11.3,5.64),[]),                                  #[swycartographr] prev. coords: (1, 1)
+  ("ally_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(12.42,1.24),[]),                                  #[swycartographr] prev. coords: (1, 1)
 
-  ("collective_enemy","{!}collective_enemy",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
+  ("collective_enemy","{!}collective_enemy",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0.07,-1.24),[]),                    #[swycartographr] prev. coords: (1, 1)
   #TODO: remove this and move all to collective ally
-  ("collective_ally","{!}collective_ally",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
-  ("collective_friends","{!}collective_ally",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
+  ("collective_ally","{!}collective_ally",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-5.43,-12.61),[]),                    #[swycartographr] prev. coords: (1, 1)
+  ("collective_friends","{!}collective_ally",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-3.01,11.78),[]),                  #[swycartographr] prev. coords: (1, 1)
    
-  ("total_enemy_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]), #ganimet hesaplari icin #new:
-  ("routed_enemies","{!}routed_enemies",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]), #new:  
+  ("total_enemy_casualties","{!}_",  pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-9.39,9.84),[]), #ganimet hesaplari icin #new: #[swycartographr] prev. coords: (1, 1) #[swycartographr] prev. coords: (-4.11, 6.2)
+  ("routed_enemies","{!}routed_enemies",pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(3.85,13.88),[]), #new:                  #[swycartographr] prev. coords: (1, 1)
 
 #  ("village_reinforcements","village_reinforcements",pf_is_static|pf_disabled, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(1,1),[]),
 
 ###############################################################  
   ("zendar","Zendar",pf_disabled|icon_town|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(18,60),[]),
 
-  ("town_1","Salvador",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 170),
+  ("town_1","Salvador",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-59.12, -10.62),[], 170),                          #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-3.58, -0.52) #[swycartographr] prev. coords: (-160, -32.73) #[swycartographr] prev. coords: (-128.04, -27.36) #[swycartographr] prev. coords: (-58.46, -13.21)
 
   ("town_2","Tihr",     pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-53.5, 78.4),[], 120),
   ("town_3","Veluca",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-56.55, -46.75),[], 80),                          #[swycartographr] prev. coords: (-57.4, -44.5)
   ("town_4","Beira",     pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-65.14, 10.27),[], 290),                          #[swycartographr] prev. coords: (-70, 15.4)
   ("town_5","Jelkala",  pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-74.5, -78.05),[], 90),                           #[swycartographr] prev. coords: (-74.6, -79.7)
-  ("town_6","Portucale",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-95.76, 25.68),[], 155),                          #[swycartographr] prev. coords: (-96, 26.4)
+  ("town_6","Portucale",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-57.47, -15.39),[], 155),                          #[swycartographr] prev. coords: (-96, 26.4) #[swycartographr] prev. coords: (-95.76, 25.68) #[swycartographr] prev. coords: (14.26, 25.97) #[swycartographr] prev. coords: (-151.19, -28.5) #[swycartographr] prev. coords: (-133.9, -31.57) #[swycartographr] prev. coords: (-66.24, -25.34)
   ("town_7","Uxkhal",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-45.11, -6.46),[], 240),                          #[swycartographr] prev. coords: (-50, -8.5)
 
   ("town_8","Reyvadin", pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(48.44, 39.3),[], 175),
   ("town_9","Khudan",   pf_disabled|icon_town_snow|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(94, 65.2),[], 90),
   ("town_10","Tulga",   pf_disabled|icon_town_steppe|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(135.5, -22),[], 310),
   ("town_11","Curaw",   pf_disabled|icon_town_snow|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(43, 67.5),[], 150),
-  ("town_12","Wercheg", pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-1.2, 108.9),[], 25),
+  ("town_12","Wercheg", pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(3.8, 99.26),[], 25),                  #[swycartographr] prev. coords: (-1.2, 108.9)
   ("town_13","Rivacheg",pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(64.8, 113.7),[], 60),
   ("town_14","Halmar",  pf_disabled|icon_town_steppe|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(55.5, -45),[], 135),
 
@@ -101,7 +101,7 @@ parties = [
   ("town_21","Ahmerrad", pf_disabled|icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(130.5, -78.5),[], 330),
   ("town_22","Bariyye", pf_disabled|icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(165, -106.7),[], 225),
 
-  ("castle_1","Culmarr_Castle",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[],50),
+  ("castle_1","Culmarr_Castle",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-51.65, -6.24),[],50),                 #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-1.85, 1.95) #[swycartographr] prev. coords: (-149.5, -36.82) #[swycartographr] prev. coords: (-122.21, -23.69) #[swycartographr] prev. coords: (-48.05, -1.53)
 
   ("castle_2","Malayurg_Castle", pf_disabled|icon_castle_b|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(97.5, -2.2),[],75),
   ("castle_3","Bulugha_Castle", pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(47.5, 111.3),[],100),
@@ -112,7 +112,7 @@ parties = [
   ("castle_8","Jeirbe_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(35.2, 89),[],30),
   ("castle_9","Jamiche_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-7.5, -82.6),[],100),
   ("castle_10","Alburq_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(24.2, 96.85),[],110),
-  ("castle_11","Curin_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-27.50, 83.46),[],75),
+  ("castle_11","Curin_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-27.50, 81.49),[],75),    #[swycartographr] prev. coords: (-27.5, 83.46)
   ("castle_12","Chalbek_Castle",pf_disabled|icon_castle_b|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-84.75, 105.5),[],95),
   ("castle_13","Kelredan_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-10.6, 17.6),[],115),
   ("castle_14","Maras_Castle",pf_disabled|icon_castle_c|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-122.4, -18.1),[],90),
@@ -133,7 +133,7 @@ parties = [
 
   ("castle_29","Nelag_Castle",pf_disabled|icon_castle_snow_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(147.7, 50.4),[],280),
   ("castle_30","Asugan_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(176, -47),[],260),
-  ("castle_31","Vyincourd_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-65.7, -12.5),[],260),
+  ("castle_31","Vyincourd_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-63.35, -18.04),[],260), #[swycartographr] prev. coords: (-65.7, -12.5)
   ("castle_32","Knudarr_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(2, 30.1),[],260),
   ("castle_33","Etrosq_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-101.4, -32.1),[],80),
   ("castle_34","Hrus_Castle",pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-72.5, 78.6),[],260),
@@ -153,7 +153,7 @@ parties = [
   ("castle_47","Samarra_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(116, -74),[],260),
   ("castle_48","Bardaq_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(157, -80),[],260),
   
-  ("village_1", "Vila", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 120),
+  ("village_1", "Vila", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-49.07, -12.48),[], 120),                   #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-2.75, -2.97) #[swycartographr] prev. coords: (-170.31, -44.58) #[swycartographr] prev. coords: (-115.68, -6.39)
   
   ("village_2", "Burglen",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-13.5, 3.5),[], 110),
   ("village_3", "Azgad",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-97.4, 36),[], 120),
@@ -169,7 +169,7 @@ parties = [
   ("village_12","Emer",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-45.8, -58.5),[], 110),
   ("village_13","Nemeja",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-119, 3),[], 120),
   ("village_14","Sumbuja",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(40,52),[], 130),
-  ("village_15","Ryibelet",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-49.3, 26.25),[], 170),
+  ("village_15","Ryibelet",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-46.01, 25.3),[], 170),  #[swycartographr] prev. coords: (-49.3, 26.25)
   ("village_16","Shapeshte",  pf_disabled|icon_village_snow_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(74, 86.8),[], 170),
   ("village_17","Mazen",  pf_disabled|icon_village_snow_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(44.7, 91.4),[], 35),
   ("village_18","Ulburban",  pf_disabled|icon_village_snow_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(73.7, 30.1),[], 170),
@@ -186,16 +186,16 @@ parties = [
   ("village_28","Tash_Kulun",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(95, -11.4),[], 170),
   ("village_29","Buillin",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-90.6, 110.9),[], 170),
 
-  ("village_30","Ruvar",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(29.2, 114.3),[], 170),
+  ("village_30","Ruvar",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(31.61, 105.33),[], 170),    #[swycartographr] prev. coords: (29.2, 114.3)
   ("village_31","Ambean",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-24, 53),[], 100),
   ("village_32","Tosdhar",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(8.3 , 14.5 ),[], 110),
-  ("village_33","Ruluns",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-54.15, 13.59),[], 120),               #[swycartographr] prev. coords: (-59, 10.6)
+  ("village_33","Ruluns",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-45.85, 3.88),[], 120),               #[swycartographr] prev. coords: (-59, 10.6) #[swycartographr] prev. coords: (-54.15, 13.59)
   ("village_34","Ehlerdah",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(34.15, -30),[], 130),
   ("village_35","Fearichen",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(2.14, 86.9),[], 170),
   ("village_36","Jayek",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(17.4, 100.7),[], 170),
   ("village_37","Ada_Kulun",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(164.4, 26),[], 170),
   ("village_38","Ibiran",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-42.8, 11.25),[], 170),
-  ("village_39","Reveran",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-124.3, -29.5),[], 170),
+  ("village_39","Reveran",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-121.99, -36.57),[], 170), #[swycartographr] prev. coords: (-124.3, -29.5)
   ("village_40","Saren",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-12, -53),[], 170),
 
   ("village_41","Dugan",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(175, -39.5),[], 100),
@@ -209,7 +209,7 @@ parties = [
   ("village_49","Tismirr",  pf_disabled|icon_village_snow_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(90.8, 60.5),[], 10),
   ("village_50","Karindi",  pf_disabled|icon_village_snow_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(64.1, 55.9),[], 170),
 
-  ("village_51","Jelbegi",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-40, 62),[], 100),
+  ("village_51","Jelbegi",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-34.47, 60.78),[], 100),  #[swycartographr] prev. coords: (-40, 62)
   ("village_52","Amashke",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(38.2, -67.7),[], 110),
   ("village_53","Balanli",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-130.3, 42),[], 120),
   ("village_54","Chide",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-19, 15.5),[], 130),
@@ -275,38 +275,38 @@ parties = [
   ("village_109","Tilimsal",  pf_disabled|icon_village_c|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(53, -114.5),[], 0),
   ("village_110","Rushdigh",  pf_disabled|icon_village_c|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(38, -104),[], 40),
 
-  ("salt_mine","Salt_Mine",pf_disabled|icon_village_a|pf_disabled|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[]),
-  ("four_ways_inn","Four_Ways_Inn",pf_disabled|icon_village_a|pf_disabled|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[]),
-  ("test_scene","test_scene",pf_disabled|icon_village_a|pf_disabled|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[]),
+  ("salt_mine","Salt_Mine",pf_disabled|icon_village_a|pf_disabled|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-2.82, -5.86),[]), #[swycartographr] prev. coords: (0, 0)
+  ("four_ways_inn","Four_Ways_Inn",pf_disabled|icon_village_a|pf_disabled|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0.41, 3.36),[]), #[swycartographr] prev. coords: (0, 0)
+  ("test_scene","test_scene",pf_disabled|icon_village_a|pf_disabled|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(2.96, -0.15),[]), #[swycartographr] prev. coords: (0, 0)
   #("test_scene","test_scene",pf_disabled|icon_village_a|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(10.8, -19.6),[]),
-  ("battlefields","battlefields",pf_disabled|icon_village_a|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[]),
-  ("dhorak_keep","Dhorak_Keep",icon_town|pf_disabled|pf_is_static|pf_always_visible|pf_no_label|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0,0),[]),
+  ("battlefields","battlefields",pf_disabled|icon_village_a|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(2.08, -7.87),[]), #[swycartographr] prev. coords: (0, 0)
+  ("dhorak_keep","Dhorak_Keep",icon_town|pf_disabled|pf_is_static|pf_always_visible|pf_no_label|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(5.73,-6.67),[]), #[swycartographr] prev. coords: (0, 0)
 
-  ("training_ground","Training Ground",  pf_disabled|icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[]),
+  ("training_ground","Training Ground",  pf_disabled|icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(5.38, 7.14),[]), #[swycartographr] prev. coords: (0, 0)
 
-  ("training_ground_1", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 0),
-  ("training_ground_2", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 0),
-  ("training_ground_3", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 0),
+  ("training_ground_1", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-10.99, 3.21),[], 0), #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-1.11, 5.59)
+  ("training_ground_2", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-5.54, -5.39),[], 0), #[swycartographr] prev. coords: (0, 0)
+  ("training_ground_3", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(9.63, 3.2),[], 0), #[swycartographr] prev. coords: (0, 0)
 
 #  bridge_a
-  ("Bridge_1","{!}1",icon_bridge_snow_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 0),
-  ("Bridge_2","{!}6",icon_bridge_b|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 0),
-  ("Bridge_3","{!}14",icon_bridge_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0, 0),[], 0),
+  ("Bridge_1","{!}1",icon_bridge_snow_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(3.17, 3.4),[], 0), #[swycartographr] prev. coords: (0, 0)
+  ("Bridge_2","{!}6",icon_bridge_b|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0.42, -11.6),[], 0), #[swycartographr] prev. coords: (0, 0)
+  ("Bridge_3","{!}14",icon_bridge_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(2.05, 6.52),[], 0), #[swycartographr] prev. coords: (0, 0)
 
-  ("looter_spawn_point"   ,"{!}looter_sp",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("steppe_bandit_spawn_point"  ,"the steppes",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("taiga_bandit_spawn_point"   ,"the tundra",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
+  ("looter_spawn_point"   ,"{!}looter_sp",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.61, -4.19),[(trp_looter,15,0)]),   #[swycartographr] prev. coords: (0, 0)
+  ("steppe_bandit_spawn_point"  ,"the steppes",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(6.22, -10.49),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("taiga_bandit_spawn_point"   ,"the tundra",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.37, -0.1),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
 ##  ("black_khergit_spawn_point"  ,"black_khergit_sp",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("forest_bandit_spawn_point"  ,"the forests",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("mountain_bandit_spawn_point","the highlands",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("sea_raider_spawn_point_1"   ,"the coast",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("sea_raider_spawn_point_2"   ,"the coast",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
-  ("desert_bandit_spawn_point"  ,"the deserts",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
+  ("forest_bandit_spawn_point"  ,"the forests",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.38, 7.82),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("mountain_bandit_spawn_point","the highlands",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.66, -8.76),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("sea_raider_spawn_point_1"   ,"the coast",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(3.15, -14.33),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("sea_raider_spawn_point_2"   ,"the coast",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(-1.82, -13.5),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("desert_bandit_spawn_point"  ,"the deserts",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0.01, 9.02),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
  # add extra towns before this point 
-  ("spawn_points_end"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0),[(trp_looter,15,0)]),
-  ("reserved_1"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0),[(trp_looter,15,0)]),
-  ("reserved_2"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0),[(trp_looter,15,0)]),
-  ("reserved_3"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0),[(trp_looter,15,0)]),
-  ("reserved_4"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0),[(trp_looter,15,0)]),
-  ("reserved_5"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0),[(trp_looter,15,0)]),
+  ("spawn_points_end"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 4.46),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("reserved_1"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 10.84),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("reserved_2"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., -17.32),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("reserved_3"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., -8.96),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("reserved_4"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., -8.91),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("reserved_5"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 0.54),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
   ]
