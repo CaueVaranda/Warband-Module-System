@@ -295,13 +295,13 @@ parties = [
 
   ("looter_spawn_point"   ,"{!}looter_sp",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.61, -4.19),[(trp_looter,15,0)]),   #[swycartographr] prev. coords: (0, 0)
   ("steppe_bandit_spawn_point"  ,"the steppes",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(6.22, -10.49),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
-  ("taiga_bandit_spawn_point"   ,"the tundra",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.37, -0.1),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("taiga_bandit_spawn_point"   ,"the tundra",pf_disabled|pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.37, -0.1),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
 ##  ("black_khergit_spawn_point"  ,"black_khergit_sp",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0, 0),[(trp_looter,15,0)]),
   ("forest_bandit_spawn_point"  ,"the forests",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.38, 7.82),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
   ("mountain_bandit_spawn_point","the highlands",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(9.66, -8.76),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
-  ("sea_raider_spawn_point_1"   ,"the coast",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(3.15, -14.33),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
-  ("sea_raider_spawn_point_2"   ,"the coast",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(-1.82, -13.5),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
-  ("desert_bandit_spawn_point"  ,"the deserts",pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0.01, 9.02),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("sea_raider_spawn_point_1"   ,"the coast",pf_disabled|pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(3.15, -14.33),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("sea_raider_spawn_point_2"   ,"the coast",pf_disabled|pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(-1.82, -13.5),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
+  ("desert_bandit_spawn_point"  ,"the deserts",pf_disabled|pf_is_static, no_menu, pt_none, fac_outlaws,0,ai_bhvr_hold,0,(0.01, 9.02),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
  # add extra towns before this point 
   ("spawn_points_end"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 4.46),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)
   ("reserved_1"                  ,"{!}last_spawn_point",    pf_disabled|pf_is_static, no_menu, pt_none, fac_commoners,0,ai_bhvr_hold,0,(0., 10.84),[(trp_looter,15,0)]), #[swycartographr] prev. coords: (0, 0)

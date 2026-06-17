@@ -483,7 +483,7 @@ scripts = [
       (try_end),
 
 	  #Give centers to factions first, to ensure more equal distributions
-	  (call_script, "script_give_center_to_faction_aux", "p_town_1", "fac_kingdom_4"),
+	  (call_script, "script_give_center_to_faction_aux", "p_town_1", "fac_kingdom_1"),
 	  (call_script, "script_give_center_to_faction_aux", "p_town_2", "fac_kingdom_4"),
 	  (call_script, "script_give_center_to_faction_aux", "p_town_3", "fac_kingdom_5"),
 	  (call_script, "script_give_center_to_faction_aux", "p_town_4", "fac_kingdom_1"),
@@ -506,7 +506,7 @@ scripts = [
 	  (call_script, "script_give_center_to_faction_aux", "p_town_21", "fac_kingdom_6"),
 	  (call_script, "script_give_center_to_faction_aux", "p_town_22", "fac_kingdom_6"),
 	  
-      (call_script, "script_give_center_to_faction_aux", "p_castle_1", "fac_kingdom_5"),
+      (call_script, "script_give_center_to_faction_aux", "p_castle_1", "fac_kingdom_1"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_2", "fac_kingdom_3"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_3", "fac_kingdom_2"),
       (call_script, "script_give_center_to_faction_aux", "p_castle_4", "fac_kingdom_2"),
@@ -564,7 +564,7 @@ scripts = [
       
 
 	  #Now give towns to great lords
-      (call_script, "script_give_center_to_lord", "p_town_1",  "trp_kingdom_4_lord", 0),
+      (call_script, "script_give_center_to_lord", "p_town_1",  "trp_kingdom_1_lord", 0),
       (call_script, "script_give_center_to_lord", "p_town_2",  "trp_knight_4_1", 0),
       (call_script, "script_give_center_to_lord", "p_town_3",  "trp_knight_5_1", 0),
       (call_script, "script_give_center_to_lord", "p_town_4",  "trp_knight_1_1", 0),

@@ -37,7 +37,7 @@ from module_constants import *
 
 game_menus = [
   ("start_game_0",menu_text_color(0xFF000000)|mnf_disable_all_keys,
-    "Welcome, adventurer, to Mount and Blade: Warband. Before beginning the game you must create your character. Remember that in the traditional medieval society depicted in the game, war and politics are usually dominated by male members of the nobility. That does not however mean that you should not choose to play a female character, or one who is not of noble birth. Male nobles may have a somewhat easier start, but women and commoners can attain all of the same goals -- and in fact may have a much more interesting if more challenging early game.",
+    "Welcome, adventurer, to the Mount and Blade: Warband mod Terra Brasilis. Before beginning the game you must create your character. Remember that in the traditional colonial Brazilian society depicted in the game, war and politics are usually dominated by male members of the nobility. That does not however mean that you should not choose to play a female character, or one who is not of noble birth. Male nobles may have a somewhat easier start, but women and commoners can attain all of the same goals -- and in fact may have a much more interesting if more challenging early game.",
     "none",
     [],
     [
@@ -53,19 +53,19 @@ game_menus = [
   ),
 
   ("start_phase_2",mnf_disable_all_keys,
-    "You hear about Calradia, a land torn between rival kingdoms battling each other for supremacy,\
- a haven for knights and mercenaries,  cutthroats and adventurers, all willing to risk their lives in pursuit of fortune, power, or glory...\
+    "You hear about Brazil, a land torn between rival tribes battling each other and the expansion of the major power Kingdom of Portugal,\
+ a haven for explorers, golddiggers, mercenaries, cutthroats and adventurers, all willing to risk their lives in pursuit of fortune, power, or glory...\
  In this land which holds great dangers and even greater opportunities, you believe you may leave your past behind and start a new life.\
  You feel that finally, you hold the key of your destiny in your hands, free to choose as you will,\
- and that whatever course you take, great adventures will await you. Drawn by the stories you hear about Calradia and its kingdoms, you...",
+ and that whatever course you take, great adventures will await you. Drawn by the stories you hear about Brazil, you...",
     "none",
     [],
     [
-      ("town_1",[(eq, "$current_startup_quest_phase", 0),],"join a caravan to Praven, in the Kingdom of Swadia.",
+      ("town_1",[(eq, "$current_startup_quest_phase", 0),],"join a caravan to Sao Salvador, the Brazilian Metropolis.",
        [
-         (assign, "$current_town", "p_town_6"),
+         (assign, "$current_town", "p_town_1"),
          (assign, "$g_starting_town", "$current_town"),
-         (assign, "$g_journey_string", "str_journey_to_praven"),
+         (assign, "$g_journey_string", "str_journey_to_salvador"),
 		 (jump_to_menu, "mnu_start_phase_2_5"),
 #         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
 #         (change_screen_return),
