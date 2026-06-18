@@ -1,5 +1,5 @@
 track_bogus = 0
-track_mount_and_blade_title_screen = 1
+track_o_guarani = 1
 track_ambushed_by_neutral = 2
 track_ambushed_by_khergit = 3
 track_ambushed_by_nord = 4

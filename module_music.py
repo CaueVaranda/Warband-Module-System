@@ -28,7 +28,7 @@ tracks = [
 ##  ("ambushed", "ambushed.mp3", mtf_sit_attack),
 ##  ("triumph", "triumph.mp3", mtf_sit_attack),
   ("bogus", "cant_find_this.ogg", 0, 0),
-  ("mount_and_blade_title_screen", "mount_and_blade_title_screen.ogg", mtf_sit_main_title|mtf_start_immediately, 0),
+  ("o_guarani", "o_guarani.ogg", mtf_sit_main_title|mtf_start_immediately, 0),
 
   ("ambushed_by_neutral", "ambushed_by_neutral.ogg", mtf_sit_ambushed|mtf_sit_siege, mtf_sit_fight|mtf_sit_multiplayer_fight),
   ("ambushed_by_khergit", "ambushed_by_khergit.ogg", mtf_culture_3|mtf_sit_ambushed|mtf_sit_siege, mtf_sit_fight|mtf_sit_multiplayer_fight|mtf_culture_all),
