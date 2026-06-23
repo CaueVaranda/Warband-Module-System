@@ -74,7 +74,7 @@ parties = [
 ###############################################################  
   ("zendar","Zendar",pf_disabled|icon_town|pf_is_static|pf_always_visible|pf_hide_defenders, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(18,60),[]),
 
-  ("town_1","Salvador",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-59.12, -10.62),[], 170),                          #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-3.58, -0.52) #[swycartographr] prev. coords: (-160, -32.73) #[swycartographr] prev. coords: (-128.04, -27.36) #[swycartographr] prev. coords: (-58.46, -13.21)
+  ("town_1","Salvador",  icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-91.33, -14.24),[], 170),                          #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-3.58, -0.52) #[swycartographr] prev. coords: (-160, -32.73) #[swycartographr] prev. coords: (-128.04, -27.36) #[swycartographr] prev. coords: (-58.46, -13.21) #[swycartographr] prev. coords: (-59.12, -10.62) #[swycartographr] prev. coords: (-91.38, -14.36)
 
   ("town_2","Tihr",     pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-53.5, 78.4),[], 120),
   ("town_3","Veluca",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-56.55, -46.75),[], 80),                          #[swycartographr] prev. coords: (-57.4, -44.5)
@@ -101,7 +101,7 @@ parties = [
   ("town_21","Ahmerrad", pf_disabled|icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(130.5, -78.5),[], 330),
   ("town_22","Bariyye", pf_disabled|icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(165, -106.7),[], 225),
 
-  ("castle_1","Culmarr_Castle",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-51.65, -6.24),[],50),                 #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-1.85, 1.95) #[swycartographr] prev. coords: (-149.5, -36.82) #[swycartographr] prev. coords: (-122.21, -23.69) #[swycartographr] prev. coords: (-48.05, -1.53)
+  ("castle_1","Culmarr_Castle",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-83.38, -11.46),[],50),                 #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-1.85, 1.95) #[swycartographr] prev. coords: (-149.5, -36.82) #[swycartographr] prev. coords: (-122.21, -23.69) #[swycartographr] prev. coords: (-48.05, -1.53) #[swycartographr] prev. coords: (-51.65, -6.24) #[swycartographr] prev. coords: (-83.05, -11.16)
 
   ("castle_2","Malayurg_Castle", pf_disabled|icon_castle_b|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(97.5, -2.2),[],75),
   ("castle_3","Bulugha_Castle", pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(47.5, 111.3),[],100),
@@ -153,7 +153,7 @@ parties = [
   ("castle_47","Samarra_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(116, -74),[],260),
   ("castle_48","Bardaq_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(157, -80),[],260),
   
-  ("village_1", "Vila", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-49.07, -12.48),[], 120),                   #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-2.75, -2.97) #[swycartographr] prev. coords: (-170.31, -44.58) #[swycartographr] prev. coords: (-115.68, -6.39)
+  ("village_1", "Vila", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-85.58, -20.39),[], 120),                   #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-2.75, -2.97) #[swycartographr] prev. coords: (-170.31, -44.58) #[swycartographr] prev. coords: (-115.68, -6.39) #[swycartographr] prev. coords: (-49.07, -12.48) #[swycartographr] prev. coords: (-81.95, -19.45) #[swycartographr] prev. coords: (-84.72, -20.85)
   
   ("village_2", "Burglen",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-13.5, 3.5),[], 110),
   ("village_3", "Azgad",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-97.4, 36),[], 120),
