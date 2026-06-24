@@ -78,9 +78,9 @@ parties = [
 
   ("town_2","Tihr",     pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-53.5, 78.4),[], 120),
   ("town_3","Veluca",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-56.55, -46.75),[], 80),                          #[swycartographr] prev. coords: (-57.4, -44.5)
-  ("town_4","Beira",     pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-65.14, 10.27),[], 290),                          #[swycartographr] prev. coords: (-70, 15.4)
+  ("town_4","Beira",    pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-65.14, 10.27),[], 290),                          #[swycartographr] prev. coords: (-70, 15.4)
   ("town_5","Jelkala",  pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-74.5, -78.05),[], 90),                           #[swycartographr] prev. coords: (-74.6, -79.7)
-  ("town_6","Portucale",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-57.47, -15.39),[], 155),                          #[swycartographr] prev. coords: (-96, 26.4) #[swycartographr] prev. coords: (-95.76, 25.68) #[swycartographr] prev. coords: (14.26, 25.97) #[swycartographr] prev. coords: (-151.19, -28.5) #[swycartographr] prev. coords: (-133.9, -31.57) #[swycartographr] prev. coords: (-66.24, -25.34)
+  ("town_6","Portucale", pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-57.47, -15.39),[], 155),                          #[swycartographr] prev. coords: (-96, 26.4) #[swycartographr] prev. coords: (-95.76, 25.68) #[swycartographr] prev. coords: (14.26, 25.97) #[swycartographr] prev. coords: (-151.19, -28.5) #[swycartographr] prev. coords: (-133.9, -31.57) #[swycartographr] prev. coords: (-66.24, -25.34)
   ("town_7","Uxkhal",   pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-45.11, -6.46),[], 240),                          #[swycartographr] prev. coords: (-50, -8.5)
 
   ("town_8","Reyvadin", pf_disabled|icon_town|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(48.44, 39.3),[], 175),
@@ -289,7 +289,7 @@ parties = [
   ("training_ground_3", "Training Field",  icon_training_ground|pf_hide_defenders|pf_is_static|pf_always_visible|pf_label_medium, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(9.63, 3.2),[], 0), #[swycartographr] prev. coords: (0, 0)
 
 #  bridge_a
-  ("Bridge_1","{!}1",icon_bridge_snow_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(3.17, 3.4),[], 0), #[swycartographr] prev. coords: (0, 0)
+  ("Bridge_1","{!}1",icon_bridge_snow_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-111.81, -54.27),[], 322), #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (3.17, 3.4) rot: 0
   ("Bridge_2","{!}6",icon_bridge_b|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(0.42, -11.6),[], 0), #[swycartographr] prev. coords: (0, 0)
   ("Bridge_3","{!}14",icon_bridge_a|pf_is_static|pf_always_visible|pf_no_label, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(2.05, 6.52),[], 0), #[swycartographr] prev. coords: (0, 0)
 

@@ -37,7 +37,7 @@ from module_constants import *
 
 game_menus = [
   ("start_game_0",menu_text_color(0xFF000000)|mnf_disable_all_keys,
-    "Welcome, adventurer, to the Mount and Blade: Warband mod Terra Brasilis. Before beginning the game you must create your character. Remember that in the traditional colonial Brazilian society depicted in the game, war and politics are usually dominated by male members of the nobility. That does not however mean that you should not choose to play a female character, or one who is not of noble birth. Male nobles may have a somewhat easier start, but women and commoners can attain all of the same goals -- and in fact may have a much more interesting if more challenging early game.",
+    "Welcome, adventurer, to Terra Brasilis Mount and Blade mod. Before beginning the game you must create your character. Remember that in the traditional colonial Brazilian society depicted in the game, war and politics are usually dominated by male members of the regional elites. That does not however mean that you should not choose to play a female character, or one who is not of noble birth. Male nobles may have a somewhat easier start, but women and commoners can attain all of the same goals -- and in fact may have a much more interesting if more challenging early game.",
     "none",
     [],
     [
@@ -53,11 +53,11 @@ game_menus = [
   ),
 
   ("start_phase_2",mnf_disable_all_keys,
-    "You hear about Brazil, a land torn between rival tribes battling each other and the expansion of the major power Kingdom of Portugal,\
- a haven for explorers, golddiggers, mercenaries, cutthroats and adventurers, all willing to risk their lives in pursuit of fortune, power, or glory...\
- In this land which holds great dangers and even greater opportunities, you believe you may leave your past behind and start a new life.\
+    "Brazil, a land torn between rival tribes battling each other and the expansion of the major power Kingdom of Portugal,\
+ a haven for explorers, golddiggers, mercenaries and adventurers, all willing to risk their lives in pursuit of fortune, power, or glory...\
+ In this land which holds great dangers and even greater opportunities, you believe you may start a new life.\
  You feel that finally, you hold the key of your destiny in your hands, free to choose as you will,\
- and that whatever course you take, great adventures will await you. Drawn by the stories you hear about Brazil, you...",
+ and that whatever course you take, great adventures will await you. Drawn by the stories you hear about the brazilian lands, you...",
     "none",
     [],
     [
@@ -71,55 +71,6 @@ game_menus = [
 #         (change_screen_return),
        ]),
        
-      ("town_2",[(eq, "$current_startup_quest_phase", 0),],"join a caravan to Reyvadin, in the Kingdom of the Vaegirs.",
-       [
-         (assign, "$current_town", "p_town_8"),
-         (assign, "$g_starting_town", "$current_town"),
-         (assign, "$g_journey_string", "str_journey_to_reyvadin"),
-		 (jump_to_menu, "mnu_start_phase_2_5"),
-#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
-#         (change_screen_return),
-       ]),
-       
-      ("town_3",[(eq, "$current_startup_quest_phase", 0),],"join a caravan to Tulga, in the Khergit Khanate.",
-       [
-         (assign, "$current_town", "p_town_10"),
-         (assign, "$g_starting_town", "$current_town"),
-         (assign, "$g_journey_string", "str_journey_to_tulga"),
-		 (jump_to_menu, "mnu_start_phase_2_5"),
-#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
-#         (change_screen_return),
-       ]),
-       
-      ("town_4",[(eq, "$current_startup_quest_phase", 0),],"take a ship to Sargoth, in the Kingdom of the Nords.",
-       [
-         (assign, "$current_town", "p_town_1"),
-         (assign, "$g_starting_town", "$current_town"),
-         (assign, "$g_journey_string", "str_journey_to_sargoth"),
-		 (jump_to_menu, "mnu_start_phase_2_5"),
-#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
-#         (change_screen_return),
-       ]),
-       
-      ("town_5",[(eq, "$current_startup_quest_phase", 0),],"take a ship to Jelkala, in the Kingdom of the Rhodoks.",
-       [
-         (assign, "$current_town", "p_town_5"),
-         (assign, "$g_starting_town", "$current_town"),
-         (assign, "$g_journey_string", "str_journey_to_jelkala"),
-		 (jump_to_menu, "mnu_start_phase_2_5"),
-#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
-#         (change_screen_return),
-       ]),
-       
-      ("town_6",[(eq, "$current_startup_quest_phase", 0),],"join a caravan to Shariz, in the Sarranid Sultanate.",
-       [
-         (assign, "$current_town", "p_town_19"),
-         (assign, "$g_starting_town", "$current_town"),
-         (assign, "$g_journey_string", "str_journey_to_shariz"),
-		 (jump_to_menu, "mnu_start_phase_2_5"),
-#         (party_relocate_near_party, "p_main_party", "$g_starting_town", 2),
-#         (change_screen_return),
-       ]),
 
 	   
       ("tutorial_cheat",[(eq,1,0)],"{!}CHEAT!",
@@ -953,7 +904,7 @@ game_menus = [
 
   (
     "start_character_1",mnf_disable_all_keys,
-    "You were born years ago, in a land far away. Your father was...",
+    "You were born years ago. Your father was...",
     "none",
     [
     (str_clear,s10),
@@ -964,12 +915,12 @@ game_menus = [
     (str_clear,s15),
     ],
     [
-    ("start_noble",[],"An impoverished noble.",[
+    ("start_noble",[],"A portuguese fidalgo.",[
       (assign,"$background_type",cb_noble),
       (assign, reg3, "$character_gender"),
-      (str_store_string,s10,"@You came into the world a {reg3?daughter:son} of declining nobility,\
+      (str_store_string,s10,"@You came into the world a {reg3?daughter:son} of the minor nobility,\
  owning only the house in which they lived. However, despite your family's hardships,\
- they afforded you a good education and trained you from childhood for the rigors of aristocracy and life at court."),
+ they afforded you a good education and trained you from childhood for the rigors of aristocracy."),
 	(jump_to_menu,"mnu_start_character_2"),
     ]),
     ("start_merchant",[],"A travelling merchant.",[
@@ -985,8 +936,8 @@ game_menus = [
       (assign,"$background_type",cb_guard),
       (assign, reg3, "$character_gender"),
       (str_store_string,s10,"@As a child, your family scrabbled out a meagre living from your father's wages\
- as a guardsman to the local lord. It was not an easy existence, and you were too poor to get much of an\
- education. You learned mainly how to defend yourself on the streets, with or without a weapon in hand."),
+ as a guardsman to the local leader. It was not an easy existence, and you were too poor to get much of an\
+ education. You learned mainly how to defend yourself, with or without a weapon in hand."),
 	(jump_to_menu,"mnu_start_character_2"),
     ]),
     ("start_forester",[],"A hunter.",[
@@ -995,19 +946,17 @@ game_menus = [
       (str_store_string,s11,"@{reg3?daughter:son}"),
       (str_store_string,s10,"@You were the {reg3?daughter:son} of a family who lived off the woods,\
  doing whatever they needed to make ends meet. Hunting, woodcutting, making arrows,\
- even a spot of poaching whenever things got tight. Winter was never a good time for your family\
- as the cold took animals and people alike, but you always lived to see another dawn,\
- though your brothers and sisters might not be so fortunate."),
+ you always lived to see another dawn, though your brothers and sisters might not be so fortunate."),
 	(jump_to_menu,"mnu_start_character_2"),
     ]),
-    ("start_nomad",[],"A steppe nomad.",[
+    ("start_nomad",[],"A wild nomad.",[
       (assign,"$background_type",cb_nomad),
       (assign, reg3, "$character_gender"),
       (str_store_string,s11,"@{reg3?daughter:son}"),
-      (str_store_string,s10,"@You were a child of the steppe, born to a tribe of wandering nomads who lived\
- in great camps throughout the arid grasslands.\
- Like the other tribesmen, your family revered horses above almost everything else, and they taught you\
- how to ride almost before you learned how to walk. "),
+      (str_store_string,s10,"@You were a child of the nature, born to a tribe of wandering nomads who lived\
+ in the wilderness.\
+ Like the other tribesmen, your family revered nature above almost everything else, and they taught you\
+ how to survive on your own as a child. "),
 	(jump_to_menu,"mnu_start_character_2"),
     ]),
     ("start_thief",[],"A thief.",[
@@ -1045,7 +994,7 @@ game_menus = [
       (assign,"$background_answer_2", cb2_page),
       (assign, reg3, "$character_gender"),
       (str_store_string,s11,"@As a {reg3?girl:boy} growing out of childhood,\
- you were sent to live in the court of one of the nobles of the land.\
+ you were sent to live in the court of one of the minor lords of the land.\
  There, your first lessons were in humility, as you waited upon the lords and ladies of the household.\
  But from their chess games, their gossip, even the poetry of great deeds and courtly love, you quickly began to learn about the adult world of conflict\
  and competition. You also learned from the rough games of the other children, who battered at each other with sticks in imitation of their elders' swords."),
@@ -1086,8 +1035,8 @@ game_menus = [
       (assign,"$background_answer_2",cb2_steppe_child),
       (assign, reg3, "$character_gender"),
       (str_store_string,s11,"@As a {reg3?girl:boy} growing out of childhood,\
- you rode the great steppes on a horse of your own, learning the ways of the grass and the desert.\
- Although you sometimes went hungry, you became a skillful hunter and pathfinder in this trackless country.\
+ you travelled the wilderness on your own, learning the ways of the grass and the forests.\
+ Although you sometimes went hungry, you became a skillful hunter and pathfinder in this trackless land.\
  Your body too started to harden with muscle as you grew into the life of a nomad {reg3?woman:man}."),
 	(jump_to_menu,"mnu_start_character_3"),
     ]),
@@ -1221,14 +1170,14 @@ game_menus = [
  drunken crowds in your taverns, and even better at talking anyone out of anything you wanted."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-      ("student",[],"A university student.",[
+      ("student",[],"A student of a catholic college.",[
         (assign,"$background_answer_3",cb3_student),
       (str_store_string,s12,"@Though the distinction felt sudden to you,\
  somewhere along the way you had become a {reg3?woman:man}, and the whole world seemed to change around you.\
- You found yourself as a student in the university of one of the great cities,\
+ You found yourself as a student in the college of one of the jesuitic missions,\
  where you studied theology, philosophy, and medicine.\
  But not all your lessons were learned in the lecture halls.\
- You may or may not have joined in with your fellows as they roamed the alleys in search of wine, women, and a good fight.\
+ You may or may not have joined in with your fellows as they roamed the streets in search of wine, women, and a good fight.\
  However, you certainly were able to observe how a broken jaw is set,\
  or how an angry townsman can be persuaded to set down his club and accept cash compensation for the destruction of his shop."),
 	(jump_to_menu,"mnu_start_character_4"),
@@ -1255,7 +1204,7 @@ game_menus = [
  With food in your belly and logs on your fire, you could take pride in your work and your growing reputation."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
-      ("poacher",[],"A game poacher.",[
+      ("poacher",[],"A skilled hunter.",[
         (assign,"$background_answer_3", cb3_poacher),
       (str_store_string,s14,"@{reg3?daughter:man}"),
       (str_store_string,s13,"@{reg3?woman:man}"),
@@ -1264,7 +1213,7 @@ game_menus = [
  Dissatisfied with common men's desperate scrabble for coin, you took to your local lord's own forests\
  and decided to help yourself to its bounty, laws be damned. You hunted stags, boars and geese and sold\
  the precious meat under the table. You cut down trees right under the watchmen's noses and turned them into\
- firewood that warmed many freezing homes during winter. All for a few silvers, of course."),
+ firewood that warmed many freezing homes during winter."),
 	(jump_to_menu,"mnu_start_character_4"),
         ]),
 ##      ("preacher",[],"Itinerant preacher.",[
@@ -1449,14 +1398,14 @@ game_menus = [
         (troop_raise_attribute, "trp_player",ca_charisma,2),
         (troop_raise_skill, "trp_player",skl_weapon_master,1),
         (troop_raise_skill, "trp_player",skl_power_strike,1),
-        (troop_raise_skill, "trp_player",skl_riding,1),
+        (troop_raise_skill, "trp_player",skl_riding,2),
         (troop_raise_skill, "trp_player",skl_tactics,1),
         (troop_raise_skill, "trp_player",skl_leadership,1),
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,10),
         (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,10),
         (troop_raise_proficiency, "trp_player",wpt_polearm,10),
 
-        (troop_add_item, "trp_player","itm_tab_shield_round_a",imod_battered),
+        (troop_add_item, "trp_player","itm_steel_shield",imod_battered),
         (troop_set_slot, "trp_player", slot_troop_renown, 100),
         (call_script, "script_change_player_honor", 3),
 
@@ -1480,7 +1429,7 @@ game_menus = [
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,20),
 
         (troop_set_slot, "trp_player", slot_troop_renown, 50),
-        (troop_add_item, "trp_player","itm_tab_shield_round_a",imod_battered),
+        (troop_add_item, "trp_player","itm_steel_shield",imod_battered),
            
 ##        (troop_add_item, "trp_player","itm_dress",imod_sturdy),
 ##        (troop_add_item, "trp_player","itm_dagger",imod_watered_steel),
@@ -1531,7 +1480,7 @@ game_menus = [
         (troop_raise_proficiency, "trp_player",wpt_two_handed_weapon,15),
         (troop_raise_proficiency, "trp_player",wpt_polearm,20),
         (troop_raise_proficiency, "trp_player",wpt_throwing,10),
-        (troop_add_item, "trp_player","itm_tab_shield_kite_b",imod_battered),
+        (troop_add_item, "trp_player","itm_steel_shield",imod_battered),
            
 ##        (troop_add_item, "trp_player","itm_leather_jerkin",imod_ragged),
 ##        (troop_add_item, "trp_player","itm_skullcap",imod_rusty),
@@ -1791,14 +1740,13 @@ game_menus = [
 
 
         (troop_add_item, "trp_player","itm_leather_boots",imod_ragged),
-        (troop_add_item, "trp_player","itm_coarse_tunic",0),
+        (troop_add_item, "trp_player","itm_gambeson",0),
            
         (troop_add_item, "trp_player","itm_sword_medieval_b", imod_balanced),
         (troop_add_item, "trp_player","itm_hunting_crossbow",0),
         (troop_add_item, "trp_player","itm_bolts",0),
            
         (troop_add_item, "trp_player","itm_tools",0),
-        (troop_add_item, "trp_player","itm_saddle_horse",0),
         (troop_add_item, "trp_player","itm_smoked_fish",0),
     (else_try),
         (eq,"$background_answer_3",cb3_peddler),
@@ -1817,10 +1765,6 @@ game_menus = [
         (troop_add_item, "trp_player","itm_leather_boots",imod_ragged),
         (troop_add_item, "trp_player","itm_fur_hat",0),
         (troop_add_item, "trp_player","itm_staff",0),
-        (troop_add_item, "trp_player","itm_hunting_crossbow",0),
-        (troop_add_item, "trp_player","itm_bolts",0),
-        (troop_add_item, "trp_player","itm_saddle_horse",0),
-        (troop_add_item, "trp_player","itm_sumpter_horse",0),
            
         (troop_add_item, "trp_player","itm_linen",0),
         (troop_add_item, "trp_player","itm_pottery",0),
@@ -1853,12 +1797,9 @@ game_menus = [
         (troop_raise_proficiency, "trp_player",wpt_one_handed_weapon,25),
         (troop_raise_proficiency, "trp_player",wpt_crossbow,10),
 
-        (troop_add_item, "trp_player","itm_tabard",imod_sturdy),
+        (troop_add_item, "trp_player","itm_red_gambeson",imod_sturdy),
         (troop_add_item, "trp_player","itm_leather_boots",imod_ragged),
         (troop_add_item, "trp_player","itm_sword_medieval_a", imod_rusty),
-        (troop_add_item, "trp_player","itm_hunting_crossbow", 0),
-        (troop_add_item, "trp_player","itm_bolts", 0),
-        (troop_add_item, "trp_player","itm_saddle_horse",imod_swaybacked),
         (troop_add_item, "trp_player","itm_smoked_fish",0),
     (else_try),
         (eq,"$background_answer_3",cb3_squire),
@@ -1877,12 +1818,11 @@ game_menus = [
         (troop_raise_proficiency, "trp_player",wpt_crossbow,10),
         (troop_raise_proficiency, "trp_player",wpt_throwing,10),
 
-        (troop_add_item, "trp_player","itm_leather_jerkin",imod_ragged),
+        (troop_add_item, "trp_player","itm_brigandine_red",0),
         (troop_add_item, "trp_player","itm_leather_boots",imod_tattered),
+        (troop_add_item, "trp_player","itm_portuguese_morion",0),
            
-        (troop_add_item, "trp_player","itm_sword_medieval_a", imod_rusty),
-        (troop_add_item, "trp_player","itm_hunting_crossbow",0),
-        (troop_add_item, "trp_player","itm_bolts",0),
+        (troop_add_item, "trp_player","itm_sword_medieval_a",0),
         (troop_add_item, "trp_player","itm_saddle_horse",imod_swaybacked),
         (troop_add_item, "trp_player","itm_smoked_fish",0),
     (else_try),
@@ -1896,8 +1836,6 @@ game_menus = [
         (troop_raise_skill, "trp_player","skl_wound_treatment",1),
            
         (troop_add_item, "trp_player","itm_dagger", 0),
-        (troop_add_item, "trp_player","itm_hunting_crossbow",0),
-        (troop_add_item, "trp_player","itm_bolts",0),
         (troop_add_item, "trp_player","itm_courser", imod_spirited),
         (troop_add_item, "trp_player","itm_woolen_hood",imod_sturdy),
         (troop_add_item, "trp_player","itm_woolen_dress",imod_sturdy),
@@ -1921,9 +1859,6 @@ game_menus = [
         (troop_add_item, "trp_player","itm_linen_tunic",imod_sturdy),
         (troop_add_item, "trp_player","itm_woolen_hose",0),
         (troop_add_item, "trp_player","itm_sword_medieval_a", imod_rusty),
-        (troop_add_item, "trp_player","itm_hunting_crossbow", 0),
-        (troop_add_item, "trp_player","itm_bolts", 0),
-        (troop_add_item, "trp_player","itm_saddle_horse",imod_swaybacked),
         (troop_add_item, "trp_player","itm_smoked_fish",0),
         (store_random_in_range, ":book_no", books_begin, books_end),
         (troop_add_item, "trp_player",":book_no",0),
@@ -14293,7 +14228,7 @@ game_menus = [
 
   
   ("start_phase_3",mnf_disable_all_keys,
-    "{s16}^^You are exhausted by the time you find the inn in {s1}, and fall asleep quickly. However, you awake before dawn and are eager to explore your surroundings. You venture out onto the streets, which are still deserted. All of a sudden, you hear a sound that stands the hairs of your neck on end -- the rasp of a blade sliding from its scabbard...",
+    "{s16}^^You are exhausted by the time you find shelter in {s1}, and fall asleep quickly. However, you awake before dawn and are eager to explore your surroundings. You venture out onto the streets, which are still deserted. All of a sudden, you hear a sound that stands the hairs of your neck on end -- the rasp of a blade sliding from its scabbard...",
     "none",
     [      
       (assign, ":continue", 1),

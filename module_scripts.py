@@ -564,35 +564,9 @@ scripts = [
       
 
 	  #Now give towns to great lords
-      (call_script, "script_give_center_to_lord", "p_town_1",  "trp_kingdom_1_lord", 0),
-      (call_script, "script_give_center_to_lord", "p_town_2",  "trp_knight_4_1", 0),
-      (call_script, "script_give_center_to_lord", "p_town_3",  "trp_knight_5_1", 0),
-      (call_script, "script_give_center_to_lord", "p_town_4",  "trp_knight_1_1", 0),
-      (call_script, "script_give_center_to_lord", "p_town_5",  "trp_kingdom_5_lord", 0),
-      (call_script, "script_give_center_to_lord", "p_town_6",  "trp_kingdom_1_lord", 0),
-      (call_script, "script_give_center_to_lord", "p_town_7",  "trp_knight_1_2", 0),
-      
-      (call_script, "script_give_center_to_lord", "p_town_8",  "trp_kingdom_2_lord", 0),
-      (call_script, "script_give_center_to_lord", "p_town_9",  "trp_knight_2_1", 0),
-      (call_script, "script_give_center_to_lord", "p_town_10", "trp_kingdom_3_lord", 0),
-      (call_script, "script_give_center_to_lord", "p_town_11", "trp_knight_2_2", 0),
-      (call_script, "script_give_center_to_lord", "p_town_12", "trp_knight_4_2", 0),
-      (call_script, "script_give_center_to_lord", "p_town_13", "trp_knight_2_3", 0),
-      (call_script, "script_give_center_to_lord", "p_town_14", "trp_knight_3_1", 0),
-
-      (call_script, "script_give_center_to_lord", "p_town_15", "trp_knight_5_2", 0),
-      (call_script, "script_give_center_to_lord", "p_town_16", "trp_knight_1_4", 0), #changed from 1_3
-      (call_script, "script_give_center_to_lord", "p_town_17", "trp_knight_3_2", 0),
-      (call_script, "script_give_center_to_lord", "p_town_18", "trp_knight_3_3", 0),	  
-	  
-      (call_script, "script_give_center_to_lord", "p_town_19", "trp_kingdom_6_lord", 0),
-      (call_script, "script_give_center_to_lord", "p_town_20", "trp_knight_6_1", 0), 
-      (call_script, "script_give_center_to_lord", "p_town_21", "trp_knight_6_2", 0),
-      (call_script, "script_give_center_to_lord", "p_town_22", "trp_knight_6_3", 0),	  
+      (call_script, "script_give_center_to_lord", "p_town_1",  "trp_kingdom_1_lord", 0), 
 
       # Give family castles to certain nobles.
-      (call_script, "script_give_center_to_lord", "p_castle_29", "trp_knight_2_10", 0), #Nelag_Castle
-      (call_script, "script_give_center_to_lord", "p_castle_30", "trp_knight_3_4", 0), #Asugan_Castle
       (call_script, "script_give_center_to_lord", "p_castle_35", "trp_knight_1_3", 0), #Haringoth_Castle
 	  
       (call_script, "script_assign_lords_to_empty_centers"),
@@ -607,12 +581,8 @@ scripts = [
       (try_end),
 	  	  
 	  #set territorial disputes/outstanding border issues 
-	  (party_set_slot, "p_castle_10", slot_center_ex_faction, "fac_kingdom_2"), #vaegirs claim nord-held alburq
-	  (party_set_slot, "p_castle_13", slot_center_ex_faction, "fac_kingdom_4"), #nords claim swadian-held kelredan
 	  (party_set_slot, "p_castle_15", slot_center_ex_faction, "fac_kingdom_1"), #swadians claim rhodok-held ergelon
-	  (party_set_slot, "p_castle_46", slot_center_ex_faction, "fac_kingdom_5"), #rhodoks claim sarranid-held weyyah
-	  (party_set_slot, "p_castle_40", slot_center_ex_faction, "fac_kingdom_6"), #sarranids claim khergit-held uhhun
-	  (party_set_slot, "p_town_11",   slot_center_ex_faction, "fac_kingdom_3"), #Khergits claim vaegir-held curaw
+
 	  
 	  #Swadians, being in the middle, will have additional claims on two of their neighhbors
 	  (party_set_slot, "p_castle_15", slot_center_ex_faction, "fac_kingdom_1"), #swadians claim vaegir-held tilbault
