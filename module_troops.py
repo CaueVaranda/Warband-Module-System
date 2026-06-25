@@ -851,16 +851,16 @@ troops = [
   ["trainer_5","Trainer","Trainer",tf_hero, scn_training_ground_ranged_melee_5|entry(6),reserved,  fac_commoners,[itm_leather_vest,itm_hide_boots],def_attrib|level(2),wp(20),knows_common,0x0000000e77082000150049a34c42ec960000000000000e080000000000000000],
 
 # Ransom brokers.
-  ["ransom_broker_1","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_leather_vest,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_2","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_tabard,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_3","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_leather_vest,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_4","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_short_tunic,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_5","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_gambeson,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_6","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_blue_gambeson,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_7","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_red_gambeson,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_8","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_fur_coat,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_9","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_leather_vest,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
-  ["ransom_broker_10","Ransom_Broker","Ransom_Broker",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_leather_jacket,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_1","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_2","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_3","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_4","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_5","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_6","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_7","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_8","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_9","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
+  ["ransom_broker_10","Jesuit_Friar","Jesuit_Friar",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_robe,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
 
 # Tavern traveler.
   ["tavern_traveler_1","Traveller","Traveller",tf_hero|tf_randomize_face, 0, reserved, fac_commoners,[itm_fur_coat,itm_hide_boots],def_attrib|level(5),wp(20),knows_common,merchant_face_1,merchant_face_2],
@@ -937,7 +937,7 @@ troops = [
    str_8|agi_11|int_10|cha_10|level(8),wp(70),knows_merchant_npc|
    knows_weapon_master_1|knows_first_aid_1|knows_wound_treatment_2|knows_ironflesh_3|knows_inventory_management_5,
    0x0000000d7f0400035915aa226b4d975200000000001ea49e0000000000000000],
-  ["npc12","Jeremus","Jeremus",tf_hero|tf_unmoveable_in_party_window, 0, reserved,  fac_commoners,[itm_pilgrim_disguise,itm_nomad_boots, itm_staff],
+  ["npc12","Jeremias","Jeremias",tf_hero|tf_unmoveable_in_party_window, 0, reserved,  fac_commoners,[itm_robe, itm_nomad_boots, itm_staff],
    str_8|agi_7|int_13|cha_7|level(4),wp(30),   knows_merchant_npc|
    knows_ironflesh_1|knows_power_strike_1|knows_surgery_4|knows_wound_treatment_3|knows_first_aid_3,
    0x000000078000500e4f8ba62a9cd5d36d00000000001e36250000000000000000],

@@ -20107,7 +20107,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
    "Greetings to you, {sir/madam}. You look like someone who should get to know me.", "ransom_broker_intro",[]],
 
   [anyone|plyr,"ransom_broker_intro",[], "Why is that?", "ransom_broker_intro_2",[]],
-  [anyone, "ransom_broker_intro_2", [], "I broker ransoms for the poor wretches who are captured in these endless wars.\
+  [anyone, "ransom_broker_intro_2", [], "I broker ransoms for the poor wretches who are captured in these endless conflicts.\
  Normally I travel between the salt mines and the slave markets on the coast, on commission from those whose relatives have gone missing.\
  But if I'm out on my errands of mercy, and I come across a fellow dragging around a captive or two,\
  well, there's no harm in a little speculative investment, is there?\

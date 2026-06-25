@@ -101,7 +101,20 @@ parties = [
   ("town_21","Ahmerrad", pf_disabled|icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(130.5, -78.5),[], 330),
   ("town_22","Bariyye", pf_disabled|icon_town_desert|pf_town, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(165, -106.7),[], 225),
 
-  ("castle_1","Culmarr_Castle",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-83.38, -11.46),[],50),                 #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-1.85, 1.95) #[swycartographr] prev. coords: (-149.5, -36.82) #[swycartographr] prev. coords: (-122.21, -23.69) #[swycartographr] prev. coords: (-48.05, -1.53) #[swycartographr] prev. coords: (-51.65, -6.24) #[swycartographr] prev. coords: (-83.05, -11.16)
+  ("castle_1","Porto_Seguro",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-79.13, 33.5),[],50),                 #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-1.85, 1.95) #[swycartographr] prev. coords: (-149.5, -36.82) #[swycartographr] prev. coords: (-122.21, -23.69) #[swycartographr] prev. coords: (-48.05, -1.53) #[swycartographr] prev. coords: (-51.65, -6.24) #[swycartographr] prev. coords: (-83.05, -11.16) #[swycartographr] prev. coords: (-83.38, -11.46)
+  ("castle_49","Itamaraca",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-143.69, -85.42),[],230),                #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+  ("castle_50","Igarassu",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-141.74, -83.42),[],299),                 #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+  ("castle_51","Olinda",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-141.07, -78.54),[],266),                   #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+  ("castle_52","Ilheus",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-79.1, 10.34),[],50),                       #[swycartographr] prev. coords: (-83.38, -11.46)
+  ("castle_53","Barra_do_Espirito_Santo",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-64, 78.75),[],50),        #[swycartographr] prev. coords: (-83.38, -11.46)
+  ("castle_54","Bertioga",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(26.37, 137.27),[],209),                   #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+  ("castle_55","Sao_Vicente",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(21.79, 134.99),[],184),                #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+  ("castle_56","Sao_Paulo_de_Piratininga",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(25.47, 132.12),[],57),    #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+  ("castle_57","Penedo_de_Sao_Francisco",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-116.52, -51.86),[],50),   #[swycartographr] prev. coords: (-83.38, -11.46)
+  ("castle_58","Cataia",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-45.76, 104.8),[],50),                      #[swycartographr] prev. coords: (-83.38, -11.46)
+  ("castle_59","Parahyba",icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-143.37, -94.25),[],323),                 #[swycartographr] prev. coords: (-83.38, -11.46) rot: 50
+
+
 
   ("castle_2","Malayurg_Castle", pf_disabled|icon_castle_b|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(97.5, -2.2),[],75),
   ("castle_3","Bulugha_Castle", pf_disabled|icon_castle_a|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(47.5, 111.3),[],100),
@@ -153,8 +166,19 @@ parties = [
   ("castle_47","Samarra_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(116, -74),[],260),
   ("castle_48","Bardaq_Castle",pf_disabled|icon_castle_d|pf_castle, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(157, -80),[],260),
   
-  ("village_1", "Vila", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-85.58, -20.39),[], 120),                   #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-2.75, -2.97) #[swycartographr] prev. coords: (-170.31, -44.58) #[swycartographr] prev. coords: (-115.68, -6.39) #[swycartographr] prev. coords: (-49.07, -12.48) #[swycartographr] prev. coords: (-81.95, -19.45) #[swycartographr] prev. coords: (-84.72, -20.85)
-  
+  ("village_1", "Vila_Velha", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-57.32, 89.88),[], 120),                   #[swycartographr] prev. coords: (0, 0) #[swycartographr] prev. coords: (-2.75, -2.97) #[swycartographr] prev. coords: (-170.31, -44.58) #[swycartographr] prev. coords: (-115.68, -6.39) #[swycartographr] prev. coords: (-49.07, -12.48) #[swycartographr] prev. coords: (-81.95, -19.45) #[swycartographr] prev. coords: (-84.72, -20.85) #[swycartographr] prev. coords: (-85.58, -20.39)
+  ("village_111", "Goiana", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-142.62, -89.26),[], 120),            #[swycartographr] prev. coords: (-86.58, -20.39)
+  ("village_112", "Pindaiba", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-135.52, -83.13),[], 120),          #[swycartographr] prev. coords: (-87.58, -20.39)
+  ("village_113", "Recife", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-139.94, -74.29),[], 224),            #[swycartographr] prev. coords: (-88.58, -20.39) rot: 120
+  ("village_114", "Camamu", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-78.73, 1.4),[], 189),                #[swycartographr] prev. coords: (-89.58, -20.39) rot: 120
+  ("village_115", "Vera_Cruz", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-75.49, 27.74),[], 120),           #[swycartographr] prev. coords: (-85.58, -20.39)
+  ("village_115", "Guanhanha", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(35.91, 137.43),[], 120),           #[swycartographr] prev. coords: (-85.58, -20.39)
+  ("village_115", "Engenho_dos_Erasmos", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(13.16, 131.77),[], 120), #[swycartographr] prev. coords: (-85.58, -20.39)
+  ("village_115", "Santo_Andre", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(32.61, 130.88),[], 26),          #[swycartographr] prev. coords: (-85.58, -20.39) rot: 120
+  ("village_115", "Porto_das_Pedras", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-129.5, -59.24),[], 120),   #[swycartographr] prev. coords: (-85.58, -20.39)
+  ("village_115", "Parahyba_do_Sul", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-24.69, 109.59),[], 120),    #[swycartographr] prev. coords: (-85.58, -20.39)
+  ("village_115", "Acajutibiro", icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-141.4, -99.41),[], 120),        #[swycartographr] prev. coords: (-85.58, -20.39)
+
   ("village_2", "Burglen",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-13.5, 3.5),[], 110),
   ("village_3", "Azgad",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-97.4, 36),[], 120),
   ("village_4", "Nomar",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-36.6, -13.2),[], 130),
@@ -237,7 +261,7 @@ parties = [
   ("village_74","Ayyike",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(49, 31),[], 15),
   ("village_75","Bhulaban",  pf_disabled|icon_village_snow_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(110.2, 48.8),[], 10),
   ("village_76","Kedelke",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(91.5, -34.8),[], 35),
-  ("village_77","Rizi",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-64.8, 81.5),[], 160),
+  ("village_77","Rizi",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-45.58, 82.71),[], 160),     #[swycartographr] prev. coords: (-64.8, 81.5)
   ("village_78","Sarimish",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-30.2, -53.3),[], 180),
   ("village_79","Istiniar",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-134.1, -5.5),[], 0),
   ("village_80","Vayejeg",  pf_disabled|icon_village_a|pf_village, no_menu, pt_none, fac_neutral,0,ai_bhvr_hold,0,(-1.5, 56),[], 40),
